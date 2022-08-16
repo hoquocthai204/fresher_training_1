@@ -1,0 +1,36 @@
+#with_form {
+    .input_container {
+        margin-bottom: 30px;
+        label {
+            display: block;
+        }
+        input {
+            margin-top: 5px;
+            width: 400px;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        span {
+            display: block;
+            color: red;
+            margin-top: 5px;
+        }
+    }
+
+    button {
+        margin-top: 15px;
+        width: 400px;
+        padding: 10px 0;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        background-color: #fcd535;
+    }
+}

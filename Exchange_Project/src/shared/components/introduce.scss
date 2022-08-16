@@ -1,0 +1,34 @@
+.introduce_notification {
+    // padding: 7px 0 7px 134px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 134px;
+    background-color: #fef6d8;
+    position: relative;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+
+    p {
+        display: inline-block;
+    }
+
+    .fa-exclamation-circle {
+        color: #f0b90b;
+        position: absolute;
+        left: 88px;
+    }
+
+    span {
+        margin-left: 40px;
+        color: #c99400;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .fa-times {
+        position: absolute;
+        right: 75px;
+        cursor: pointer;
+    }
+}

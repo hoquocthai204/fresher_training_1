@@ -1,0 +1,38 @@
+.trade_select {
+    text-align: center;
+    padding: 30px 0 60px;
+    background-color: #fafafa;
+
+    .trade_title {
+        margin-bottom: 24px;
+    }
+
+    .btn_selector {
+        > a {
+            button {
+                font-size: 14px;
+                padding: 10px 37px;
+                border-radius: 5px;
+                border: none;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            + a {
+                margin-left: 30px;
+            }
+            &:nth-child(1) {
+                button{
+
+                    background-color: #fcd535;
+                }
+            }
+
+            &:nth-child(2) {
+                button{
+                    
+                    background-color: #eaecef;
+                }
+            }
+        }
+    }
+}

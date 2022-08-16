@@ -1,0 +1,99 @@
+.notification_container {
+    position: relative;
+
+    .alert_icon{
+        position: absolute;
+        padding: 2px 6px;
+        text-align: center;
+        right: 0;
+        top: -8px;
+        background-color: red;
+        border-radius: 50%;
+        color: white;
+        font-size: 13px;
+    }
+
+    .active {
+        color: #c99400;
+    }
+    .notTab {
+        i {
+            font-size: 20px;
+        }
+    }
+
+    .not_Box {
+        position: absolute;
+        width: 380px;
+        top: 40px;
+        right: 0;
+        z-index: 10;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid #ccc;
+
+        .not_Header {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            background-color: #f5f5f5;
+            border-radius: 5px;
+            button {
+                font-size: 14px;
+                background-color: #f5f5f5;
+            }
+
+            .not_pending {
+                display: flex;
+                align-items: center;
+                span {
+                    font-size: 25px;
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .not_List {
+            padding: 15px 0;
+            height: 400px;
+            overflow-y: scroll;
+
+            &::-webkit-scrollbar {
+                width: 5px;
+            }
+
+            &::-webkit-scrollbar-thumb {
+                background: #c1c1c1;
+                border-radius: 5px;
+            }
+
+            .item {
+                padding: 10px 20px 10px 40px;
+                cursor: pointer;
+
+                .title {
+                    font-size: 15px;
+                }
+
+                .content,
+                .date {
+                    margin-top: 3px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    font-size: 13px;
+                    opacity: 0.7;
+                }
+
+                &:hover {
+                    .content {
+                        white-space: normal;
+                        overflow: unset;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,139 @@
+.fiat_container {
+    width: 100%;
+    .fiat_header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fafafa;
+
+        p {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .fiat_nav_box {
+            .nav_btn {
+                cursor: pointer;
+                border-radius: 5px;
+                // border: none;
+                background-color: #eaecef;
+                padding: 8px 15px;
+                font-weight: bold;
+                font-size: 13px;
+                text-transform: unset;
+                color: black;
+
+                &.deposit_btn {
+                    background-color: #fcd535;
+                }
+            }
+            > a + a {
+                margin-left: 15px;
+            }
+        }
+    }
+
+    .fiat_content {
+        padding: 10px 20px;
+        .fiat_baln {
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+            span {
+                font-size: 14px;
+                font-weight: bold;
+                opacity: 0.7;
+            }
+            i {
+                margin-left: 10px;
+                cursor: pointer;
+            }
+            .baln_num {
+                input {
+                    margin-top: 10px;
+                    font-size: 20px;
+                    font-weight: bold;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
+
+        .fiat_search_box {
+            margin: 7px;
+            display: flex;
+            align-items: center;
+
+            > div {
+                display: inline-block;
+                + div {
+                    margin-left: 25px;
+                }
+            }
+
+            .search_box {
+                position: relative;
+
+                input {
+                    padding: 6px 0 6px 35px;
+                    border-radius: 5px;
+                    border: 1px solid #ccc;
+                    outline: none;
+                }
+
+                .searchIcon {
+                    position: absolute;
+                    left: 7px;
+                    top: 7px;
+                    opacity: 0.5;
+                    font-size: 20px;
+                }
+
+                > div {
+                    width: unset;
+                    > div {
+                        width: 230px;
+                    }
+                    div {
+                        padding: 0;
+                    }
+                    label {
+                    }
+                    .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+                        top: -8px;
+                        font-size: 14px;
+                        margin-left: 20px;
+                    }
+                    input {
+                        border: none;
+                    }
+                    svg {
+                        display: none;
+                    }
+                }
+            }
+
+            .hide_checkbox {
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+
+                // input {
+                //     width: 16px;
+                //     height: 16px;
+                //     cursor: pointer;
+                // }
+
+                span {
+                    padding: 0;
+                }
+
+                label {
+                    margin-left: 5px;
+                    border-bottom: 1.5px dashed #ccc;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

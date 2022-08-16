@@ -1,0 +1,23 @@
+.header {
+    padding: 15px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .leftSide {
+        p {
+            display: inline-block;
+        }
+
+        .header_title {
+            font-size: 36px;
+            margin-right: 80px;
+            color: black;
+        }
+
+        .trade {
+            font-size: 14px;
+            text-shadow: 0 0 1px #ccc;
+        }
+    }
+}

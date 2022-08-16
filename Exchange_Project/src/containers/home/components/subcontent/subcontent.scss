@@ -1,0 +1,67 @@
+.increase {
+    color: #0ecb81;
+}
+
+.decrease {
+    color: #fd0606;
+}
+
+.subcontent {
+    padding: 100px 80px 60px;
+    background-color: black;
+    color: white;
+
+    .subcontent_container {
+        .subcontent_title {
+            font-size: 48px;
+            font-weight: 400;
+        }
+
+        .subcontent_subtitle {
+            font-size: 18px;
+            padding: 10px 0 22px;
+        }
+
+        .register_btn {
+            padding: 11px 50px;
+            font-size: 20px;
+            background-color: #fcd535;
+            color: black;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 34px;
+        }
+        .trade_btn {
+            padding: 11px 50px;
+            font-size: 20px;
+            background-color: #fcd535;
+            color: black;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 34px;
+        }
+    }
+
+    .coinDetail {
+        .coinContainer {
+            display: inline-block;
+            width: 20%;
+
+            .coinPair {
+                font-size: 20px;
+                span {
+                    font-size: 18px;
+                    margin-left: 10px;
+                }
+            }
+
+            .rate {
+                padding: 7px 0;
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+    }
+}

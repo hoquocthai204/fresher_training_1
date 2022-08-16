@@ -1,0 +1,8 @@
+.linkGroup {
+    a {
+        color: #cb9809;
+        + a {
+            margin-left: 20px;
+        }
+    }
+}

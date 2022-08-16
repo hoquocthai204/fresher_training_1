@@ -1,0 +1,27 @@
+.filter_options {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+
+    .filter_option {
+        p {
+            margin-bottom: 5px;
+        }
+
+        > div {
+            > div {
+                label {
+                    display: none;
+                }
+                > div {
+                    > div {
+                        padding: 5px 32px 5px 14px;
+                    }
+                }
+            }
+        }
+    }
+}

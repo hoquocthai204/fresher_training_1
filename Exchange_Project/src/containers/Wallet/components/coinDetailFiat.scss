@@ -1,0 +1,25 @@
+.coin_detail {
+    display: flex;
+    align-items: center;
+    min-width: 130px;
+
+    .coin_name {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        span:first-child {
+            font-weight: bold;
+        }
+
+        span + span {
+            font-size: 13px;
+            max-width: 130px;
+            opacity: 0.6;
+            text-decoration: underline;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}

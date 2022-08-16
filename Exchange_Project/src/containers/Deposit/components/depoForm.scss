@@ -1,0 +1,50 @@
+#depo_form {
+    .address {
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: 30px;
+        input {
+            border: none;
+            outline: none;
+            width: 350px;
+            font-weight: bold;
+        }
+        img {
+            margin-left: 20px;
+            width: 16px;
+            cursor: pointer;
+        }
+    }
+
+    .input_container {
+        margin-bottom: 30px;
+        label {
+            display: block;
+        }
+        input {
+            margin-top: 5px;
+            width: 400px;
+            padding: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        span {
+            display: block;
+            color: red;
+            margin-top: 5px;
+        }
+    }
+
+    button {
+        margin-top: 15px;
+        width: 400px;
+        padding: 10px 0;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        background-color: #fcd535;
+    }
+}

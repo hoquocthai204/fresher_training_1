@@ -1,0 +1,13 @@
+.not-found {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.overlaybg {
+    position: fixed;
+    inset: 0;
+    background-color: blanchedalmond;
+}

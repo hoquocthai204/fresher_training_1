@@ -1,0 +1,49 @@
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded.MuiPaper-elevation1.css-1fw5qro-MuiPaper-root {
+    box-shadow: unset;
+}
+
+.tab_header {
+    th {
+        background-color: #f5f5f5;
+        padding: 5px 16px;
+
+        .header_detail {
+            i {
+                margin-left: 5px;
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+.rowCoin {
+    cursor: pointer;
+    &:first-child {
+        td:last-child {
+            border-top: unset;
+        }
+    }
+
+    td {
+        padding: 11px 16px;
+        border-bottom: unset;
+        &:last-child {
+            border-left: 1px solid #f1f1f1;
+            border-top: 1px solid #f1f1f1;
+        }
+    }
+
+    &:hover {
+        td:last-child {
+            background-color: white;
+            border-right: 1px solid #f1f1f1;
+        }
+    }
+
+    .coinInfo {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+}

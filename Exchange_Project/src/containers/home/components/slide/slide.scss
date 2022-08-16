@@ -1,0 +1,31 @@
+.slide_image {
+    padding: 36px 75px 50px;
+    .imgContainer {
+        cursor: pointer;
+        display: inline-block;
+        width: 24%;
+        height: 180px;
+        margin: 0 0.5%;
+        border-radius: 10px;
+
+        &:nth-child(1) {
+            background: url("https://s2.coinmarketcap.com/static/new-alerts/6115224cb91ba00012e951d7/img/1641286897549_crust-a-230_138.png")
+                no-repeat center/cover;
+        }
+
+        &:nth-child(2) {
+            background: url("https://s2.coinmarketcap.com/static/new-alerts/61152481ad8e1000124fc878/img/1639738636872_Free-API-Sponsorship-Program-(updated)-280x136.png")
+                no-repeat center/cover;
+        }
+
+        &:nth-child(3) {
+            background: url("https://s2.coinmarketcap.com/static/new-alerts/611521ecc3074e0013b0c4a9/img/1639938659208_Airdrop-general-image-280x136.png")
+                no-repeat center/cover;
+        }
+
+        &:nth-child(4) {
+            background: url("https://s2.coinmarketcap.com/static/new-alerts/61152358029ab00019681d99/img/1632373087159_Influencer 280x136(1).jpeg")
+                no-repeat center/cover;
+        }
+    }
+}

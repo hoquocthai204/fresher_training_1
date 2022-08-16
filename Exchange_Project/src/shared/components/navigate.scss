@@ -1,0 +1,85 @@
+$nav-margin-left: 20px;
+
+.rightSide {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    button {
+        display: inline-block;
+        background-color: white;
+        text-shadow: 0 0 1px #ccc;
+        border: none;
+        cursor: pointer;
+        padding: 5px 10px;
+
+        + button {
+            margin-left: 10px;
+        }
+    }
+    > a + button {
+        margin-left: 10px;
+    }
+    > a + a,
+    > a + div,
+    > div + div,
+    > button + div {
+        margin-left: $nav-margin-left;
+    }
+
+    .download_container {
+        position: relative;
+        display: inline-block;
+
+        .download_btn {
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+    .option_container {
+        position: relative;
+        display: inline-block;
+
+        .option_boxs {
+            padding-bottom: 20px;
+            text-align: left;
+            position: absolute;
+            width: 567px;
+            height: 429px;
+            top: 40px;
+            right: 0;
+            border-radius: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            z-index: 10;
+
+            .header_option {
+                padding: 10px 15px 0;
+                border-bottom: 1px solid #ccc;
+
+                p {
+                    display: inline-block;
+                    font-weight: bold;
+                    padding-bottom: 10px;
+                    opacity: 0.7;
+                    cursor: pointer;
+
+                    + p {
+                        margin-left: 30px;
+                    }
+
+                    &.active {
+                        border-bottom: 1px solid #d3a307;
+                        opacity: 1;
+                    }
+
+                    &:hover {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.user_container {
+    position: relative;
+
+    .userTab {
+        i {
+            font-size: 20px;
+        }
+    }
+
+    .user_box {
+        position: absolute;
+        top: 40px;
+        left: 0;
+        background-color: white;
+        z-index: 10;
+        border: 1px solid #ccc;
+
+        .emailinfo {
+            padding: 10px;
+            font-size: 14px;
+            font-weight: bold;
+            position: relative;
+            padding-bottom: 40px;
+            border-bottom: 1px solid #ccc;
+        }
+        .verified {
+            position: absolute;
+            background-color: #cff5e6;
+            color: #0ecb81;
+            padding: 2px 2px 2px 5px;
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 50px;
+            right: -1px;
+            top: 35px;
+            font-size: 12px;
+            i {
+                margin-right: 10px;
+            }
+        }
+
+        .vip {
+            position: absolute;
+            color: #f3c31a;
+            font-size: 12px;
+            left: 10px;
+            top: 35px;
+
+            i {
+                margin-right: 2px;
+            }
+        }
+        .logout {
+            font-size: 14px;
+            font-weight: bold;
+            padding: 10px;
+            color: #707a8a;
+            width: 100%;
+            text-align: left;
+            i {
+                margin-right: 7px;
+                font-size: 12px;
+            }
+        }
+    }
+}

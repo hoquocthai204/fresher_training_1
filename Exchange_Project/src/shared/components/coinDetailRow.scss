@@ -1,0 +1,17 @@
+.coin_row {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+
+    .name {
+        margin-left: 10px;
+
+        span:first-child {
+            font-weight: bold;
+        }
+        span + span {
+            margin-left: 10px;
+            opacity: 0.6;
+        }
+    }
+}

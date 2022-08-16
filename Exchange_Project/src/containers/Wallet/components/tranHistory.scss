@@ -1,0 +1,19 @@
+.tran_container {
+    width: 100%;
+    padding: 20px 30px;
+
+    .tran_header_box {
+        margin-bottom: 15px;
+
+        .tran_header {
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 7px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}

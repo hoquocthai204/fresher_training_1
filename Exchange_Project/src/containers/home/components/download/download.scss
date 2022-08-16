@@ -1,0 +1,25 @@
+.download_box {
+    position: absolute;
+    padding: 15px;
+    background-color: #ffffff;
+    right: 0;
+    top: 40px;
+    border: 1px solid #ccc;
+    text-align: center;
+    z-index: 10;
+
+    .title {
+        font-size: 16px;
+        padding: 10px 0 20px;
+    }
+
+    .download {
+        border-radius: 5px;
+        background-color: #fcd535;
+        padding: 11px;
+        font-size: 14px;
+        border: none;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+}
